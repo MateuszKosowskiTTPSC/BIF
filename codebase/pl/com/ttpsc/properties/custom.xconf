@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Configuration
+        SYSTEM "xconf.dtd">
+<Configuration xmlns:xlink="http://www.w3.org/1999/xlink">
+    <Property name="product" overridable="true"
+              targetFile="codebase/wt.properties"
+              default="GOLF_CART"/>
+    <Property name="organization" overridable="true"
+              targetFile="codebase/wt.properties"
+              default="Demo Organization"/>
+    <Property name="wt.services.service.999996"
+               targetFile="codebase/wt.properties"
+               default="pl.com.ttpsc.listeners.template.EventService/pl.com.ttpsc.listeners.template.StandardEventService"/>
+   <Property name="wt.services.service.999994"
+                  targetFile="codebase/wt.properties"
+                  default="pl.com.ttpsc.listeners.postStore.PostStoreService/pl.com.ttpsc.listeners.postStore.StandardPostStoreService"/>
+   <Property name="wt.services.service.999993"
+                  targetFile="codebase/wt.properties"
+                  default="pl.com.ttpsc.listeners.wip.PreCheckInService/pl.com.ttpsc.listeners.wip.StandardPreCheckInService"/>
+   <Property name="wt.services.service.999986"
+                     targetFile="codebase/wt.properties"
+                     default="pl.com.ttpsc.listeners.insert.InsertService/pl.com.ttpsc.listeners.insert.StandardInsertService"/>
+</Configuration>

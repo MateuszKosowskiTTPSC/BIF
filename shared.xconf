@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Configuration
+  SYSTEM "xconf.dtd">
+<Configuration xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<Property name="wt.method.maxThreads" overridable="true" targetFile="codebase/wt.properties" value="50"/>
+<Property name="wt.method.minThreads" overridable="true" targetFile="codebase/wt.properties" value="10"/>
+
+</Configuration>
+

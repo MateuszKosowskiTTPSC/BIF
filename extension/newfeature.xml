@@ -1,0 +1,11 @@
+<project name="project1" basedir="." default="clearCaches">
+<target name="clearCaches" description="clears Tomcat and Info*Engine caches">
+        <!-- Info Engine cache https://www.ptc.com/appserver/cs/view/solution.jsp?n=CS46117 -->
+        <delete dir="${wthome}/tasks/codebase/com/infoengine/compiledTasks" failonerror="false"/>
+        <!--  Tomcat cache https://www.ptc.com/appserver/cs/view/solution.jsp?n=CS75448 -->
+        <delete dir="${wthome}/tomcat/instances" failonerror="false"/>
+        <!-- JSP compiler work directory -->
+        <delete dir="${wthome}/tomcat/work/Catalina" failonerror="false"/>
+    </target>
+</project>
+
